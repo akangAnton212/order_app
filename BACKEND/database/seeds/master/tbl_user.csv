@@ -1,0 +1,2 @@
+"id";"firstname";"lastname";"uid_user";"username";"password";"email";"telepon";"alamat";"role";"deleted_at";"created_at";"updated_at"
+"1";"Admin";"Admin";"106605cc-31cd-11e9-b210-d663bd873d93";"admin";"$2y$10$Rqu1WRDIxYcH64uqeCjiW.PEYkgL3rOUrrkXgWNlDFrMw3TV.euvW";"admin@email.com";"08937287801";"Bekasi";"e2c8d054-31cc-11e9-b210-d663bd873d93";NULL;"2019-02-16 00:00:00";"2019-02-16 00:00:00"
