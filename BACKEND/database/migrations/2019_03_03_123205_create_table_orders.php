@@ -20,10 +20,10 @@ class CreateTableOrders extends Migration
             $table->string('po_number', 15);
             $table->datetime('po_time');
             $table->string('po_assigne', 20);
-            $table->string('ro_number', 20);
-            $table->date('ro_date');
-            $table->string('ro_assigne', 20);
-            $table->boolean('is_approved');
+            $table->string('ro_number', 20)->nullable();
+            $table->date('ro_date')->nullable();
+            $table->string('ro_assigne', 20)->nullable();
+            $table->boolean('is_approved')->nullable();
             $table->softdeletes()->nullable();
             $table->timestamps();
         });
